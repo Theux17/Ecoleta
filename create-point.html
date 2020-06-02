@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Criar um ponto de coleta</title>
+    <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/create-point.css">
+
+    <link rel="stylesheet" href="/styles/responsive.css">
+
+</head>
+
+<body>
+
+    <div id="page-create-point">
+
+        <header>
+
+            <img src="/assets/logo.svg" alt="Logomarca">
+            <a href="/index.html">
+                <span></span>
+                Voltar para home
+            </a>
+
+        </header>
+
+        <form action="">
+            <h1>Cadastro do ponto de coleta </h1>
+
+            <!--Esse elemento é uma ideia que serve para agrupar campos, ao invés de eu colocar uma div, coloco esse elemnto para agrupar campos, ou seja como se fosse uma caixa para cada formulário -->
+            <fieldset>
+                <!--Dentro do fieldset é sempre bom colocar esse elemento para colcoar para referenciar um título -->
+                <legend>
+                    <h2>Dados da entidade</h2>
+                </legend>
+
+                <div class="field">
+                    <!--Usado para dar nome ao campo, o for é usado para referenciar o nome do campo-->
+                    <label for="name">Nome da entidade</label>
+                    <input type="text" name="name">
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Endereço</label>
+                        <input type="text" name="address">
+                    </div>
+                    <div class="field">
+                        <label for="address2">Número/Complemento</label>
+                        <input type="text" name="address2">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="state">Estado</label>
+                        <select name="uf">
+                            <option value="">Selecione o Estado</option>
+                        </select>
+
+                        <input type="hidden" name="state">
+                    </div>
+
+                    <div class="field">
+                        <label for="city">Cidade</label>
+                        <select name="city" disabled>
+                            <option value="">Selecione a cidade</option>
+                        </select>
+                    </div>
+
+
+                </div>
+            </fieldset>
+
+            <button type="submit">Cadastrar ponto de coleta</button>
+        </form>
+
+    </div>
+
+
+<script src="/scripts/create-point.js"></script>
+</body>
+
+</html>
