@@ -2,10 +2,18 @@
     #page-home {
         background-position: 70vw;
     }
+
+    #page-create-point header a {
+        padding-left: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
     #page-home .content {
         align-items: center;
         text-align: center;
     }
+
     #page-home header a {
         position: absolute;
         bottom: 48px;
@@ -18,6 +26,58 @@
         align-items: center;
     }
 
+    #modal form button {
+        height: 50px;
+    }
+
+    #modal form .field {
+        flex-direction: row;
+    }
+
+    #page-search-results header a {
+        padding-left: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+        height: 200px    
+    }
+
+    form {
+        margin: 40px auto;
+        padding: 14px;
+        text-align: center;
+    }
+    form input {
+        padding: 14px;
+    }
+
+    form .field-group .field + .field{
+        margin: 14px auto;
+    }
+
+    form .field {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    form .field-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 @media(min-width: 1700px){
@@ -27,8 +87,156 @@
 
 }
 
-@media(max-height: 760px){
+@media(min-height: 760px){
     #page-home {
         background-position-y: 200px;
+    }
+
+    #page-home header a {
+        top: 96%;
+    }
+
+    #modal form button {
+        height: 50px;
+    }
+
+    #modal form .field {
+        flex-direction: row;
+    }
+
+    #page-create-point header a {
+        padding-left: 24px;
+    }
+
+    #page-search-results header a {
+        padding-left: 20px;
+    }
+
+    form {
+        margin: 40px auto;
+        padding: 14px;
+        text-align: center;
+    }
+    form input {
+        padding: 14px;
+    }
+
+    form .field-group .field + .field{
+        margin: 14px auto;
+    }
+
+    form .field {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    form .field-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-height: 640px){
+    #page-home {
+        background-position-y: 200px;
+    }
+
+    #page-home header a {
+        top: 100%;
+    }
+
+    #modal form button {
+        height: 50px;
+    }
+
+    #modal form .field {
+        flex-direction: row;
+    }
+
+    #page-create-point header a {
+        padding-left: 24px;
+    }
+    
+    #page-create-point header a span {
+        margin-right: 0;
+    }
+
+    #page-search-results header a {
+        padding-left: 24px;
+    }
+    
+    #page-search-results header a span {
+        margin-right: 0;
+    }
+
+    form {
+        margin: 40px auto;
+        padding: 14px;
+        text-align: center;
+    }
+    form input {
+        padding: 14px;
+    }
+
+    form .field-group .field + .field{
+        margin: 14px auto;
+    }
+
+    form .field {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    form .field-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-height: 568px){
+    #page-home {
+        background-position-y: 200px;
+    }
+
+    #page-home header a {
+        top: 108%;
+    }
+    #page-create-point header a span {
+        margin-right: 0;
+    }
+    #page-create-point header a {
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
+
+    }
+
+
+    #page-search-results header a span {
+        margin-right: 0;
+    }
+    #page-search-results header a {
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
+
     }
 }
