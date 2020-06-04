@@ -3,6 +3,10 @@
         background-position: 70vw;
     }
 
+    #page-home header a{
+        top: 95%
+    }
+
     #page-create-point header a {
         padding-left: 24px;
         display: flex;
@@ -87,13 +91,14 @@
 
 }
 
-@media(min-height: 760px){
+@media(max-height: 760px){
+
     #page-home {
         background-position-y: 200px;
     }
 
-    #page-home header a {
-        top: 96%;
+    #page-home header a{
+        top: 100%
     }
 
     #modal form button {
@@ -111,12 +116,16 @@
     #page-search-results header a {
         padding-left: 20px;
     }
+    
+}
 
+@media(min-height: 760px){
     form {
         margin: 40px auto;
         padding: 14px;
         text-align: center;
     }
+
     form input {
         padding: 14px;
     }
@@ -145,6 +154,7 @@
     }
 }
 
+
 @media(max-height: 640px){
     #page-home {
         background-position-y: 200px;
@@ -156,6 +166,15 @@
 
     #modal form button {
         height: 50px;
+    }
+
+    #modal .header h1,
+    #modal .header a{ 
+        margin: 0 auto;
+    }
+
+    #modal .header a {
+        margin-right: 14px;
     }
 
     #modal form .field {
@@ -183,6 +202,7 @@
         padding: 14px;
         text-align: center;
     }
+    
     form input {
         padding: 14px;
     }
