@@ -8,7 +8,7 @@
 </h1>
 
 <h2 align="center">
-<a href="https://www.loom.com/share/2ae4ebf4a0f0490e9737c23935d625eb"> <p>Ecoleta - Watch Video</p> <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/2ae4ebf4a0f0490e9737c23935d625eb-with-play.gif"> </a>
+<a href="https://www.loom.com/share/2ae4ebf4a0f0490e9737c23935d625eb"> <p>Ecoleta - Veja o vídeo completo</p> <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/2ae4ebf4a0f0490e9737c23935d625eb-with-play.gif"> </a>
 
 </h2>
 
